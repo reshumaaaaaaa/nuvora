@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nuvora/Spotify.dart';
+import 'package:nuvora/spotify_screen.dart';
 import 'package:nuvora/profile_screen.dart';
 
 void main() {
