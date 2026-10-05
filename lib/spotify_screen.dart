@@ -44,7 +44,6 @@ class _SpotifyScreenState extends State<SpotifyScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Header
               const Row(
                 children: [
                   Expanded(
@@ -73,8 +72,6 @@ class _SpotifyScreenState extends State<SpotifyScreen> {
                   ),
                 ],
               ),
-
-              // Artists row
               const SizedBox(height: 32),
               Row(
                 children: [
@@ -83,8 +80,6 @@ class _SpotifyScreenState extends State<SpotifyScreen> {
                       artistSize),
                 ],
               ),
-
-              // 2021 in review
               const SizedBox(height: 48),
               Row(
                 children: [
@@ -105,8 +100,6 @@ class _SpotifyScreenState extends State<SpotifyScreen> {
                   ),
                 ],
               ),
-
-              // Cards
               const SizedBox(height: 32),
               Row(
                 children: [
